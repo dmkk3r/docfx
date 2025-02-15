@@ -33,6 +33,7 @@ internal class Program
             });
             config.AddCommand<DownloadCommand>("download");
             config.AddCommand<MergeCommand>("merge");
+            config.AddCommand<OpenApiCommand>("openapi");
         });
 
         return app.Run(args);
