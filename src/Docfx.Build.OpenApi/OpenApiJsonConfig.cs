@@ -9,7 +9,7 @@ namespace Docfx;
 /// <summary>
 /// OpenApiJsonConfig.
 /// </summary>
-internal class OpenApiJsonConfig
+public class OpenApiJsonConfig
 {
     /// <summary>
     /// The OpenAPI specification file.
