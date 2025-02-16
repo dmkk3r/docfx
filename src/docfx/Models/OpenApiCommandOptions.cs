@@ -11,5 +11,13 @@ internal class OpenApiCommandOptions : LogOptions
 {
     [Description("Specify the file to generate OpenAPI documentation from")]
     [CommandOption("-f|--file")]
-    public string File { get; set; }
+    public string SpecFile { get; set; }
+
+    [Description("Specify the output base directory")]
+    [CommandOption("-o|--output")]
+    public string OutputFolder { get; set; }
+
+    [Description("Path to docfx.json")]
+    [CommandArgument(0, "[config]")]
+    public string Config { get; set; }
 }

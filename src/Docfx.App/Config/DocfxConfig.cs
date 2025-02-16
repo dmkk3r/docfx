@@ -15,5 +15,7 @@ class DocfxConfig
 
     public BuildJsonConfig? build { get; init; }
 
+    public OpenApiJsonConfig? openapi { get; init; }
+
     public Dictionary<string, LogLevel>? rules { get; init; }
 }

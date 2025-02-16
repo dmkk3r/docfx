@@ -64,6 +64,10 @@
       "output": "obj/apipage"
     }
   ],
+  "openapi": {
+    "specFile": "restapi/petstore3.swagger.json",
+    "output": "openapi"
+  },
   "build": {
     "content": [
       { "files": [ "**/*.yml" ], "src": "obj/api", "dest": "api" },

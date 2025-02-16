@@ -11,7 +11,7 @@ internal static class RunOpenApi
     /// <summary>
     /// Generate openapi documentation with specified settings.
     /// </summary>
-    public static void Exec()
+    public static void Exec(OpenApiJsonConfig config, string configDirectory)
     {
     }
 }

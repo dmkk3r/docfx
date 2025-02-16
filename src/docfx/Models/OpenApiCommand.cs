@@ -12,7 +12,15 @@ internal class OpenApiCommand : Command<OpenApiCommandOptions>
     {
         return CommandHelper.Run(options, () =>
         {
-            RunOpenApi.Exec();
+            (DocfxConfig config, string baseDirectory) = Docset.GetConfig(options.Config);
+            MergeOptionsToConfig(options, config.openapi, baseDirectory);
+            RunOpenApi.Exec(config.openapi, baseDirectory);
         });
+    }
+
+    private static void MergeOptionsToConfig(OpenApiCommandOptions options, OpenApiJsonConfig config, string configDirectory)
+    {
+        config.SpecFile = options.SpecFile ?? config.SpecFile;
+        config.OutputFolder = options.OutputFolder ?? config.OutputFolder;
     }
 }
