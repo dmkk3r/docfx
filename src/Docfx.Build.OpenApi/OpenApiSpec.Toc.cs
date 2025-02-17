@@ -20,7 +20,10 @@ public partial class OpenApiSpec
 
         foreach (var tag in tags)
         {
-            var tagNode = new OpenApiTocNode { name = tag.Name, type = OpenApiTocNodeType.Tag };
+            var tagNode = new OpenApiTocNode
+            {
+                id = tag.Name, name = tag.Name, type = OpenApiTocNodeType.Tag, href = $"{tag.Name}.yml"
+            };
 
             toc.Add(tagNode);
 
@@ -33,13 +36,21 @@ public partial class OpenApiSpec
                         continue;
                     }
 
+                    var id = operation.Value.OperationId;
+
                     var operationNode = new OpenApiTocNode
                     {
-                        name = operation.Value.Summary, type = OpenApiTocNodeType.Operation
+                        id = id,
+                        name = operation.Value.Summary ?? operation.Value.Description ?? id,
+                        type = OpenApiTocNodeType.Operation,
+                        href = $"{id}.yml"
                     };
+
+                    operationNode.operations.Add(operation);
 
                     tagNode.items ??= [];
                     tagNode.items.Add(operationNode);
+                    tagNode.operations.Add(operation);
                 }
             }
 
@@ -50,5 +61,19 @@ public partial class OpenApiSpec
         YamlUtility.Serialize(tocPath, toc, YamlMime.TableOfContent);
 
         return toc;
+    }
+
+    private static IEnumerable<(string id, List<KeyValuePair<OperationType, OpenApiOperation>> operations)>
+        EnumerateToc(List<OpenApiTocNode> items)
+    {
+        foreach (var item in items)
+        {
+            if (item.items is not null)
+                foreach (var i in EnumerateToc(item.items))
+                    yield return i;
+
+            if (item.id is not null && item.operations.Count > 0)
+                yield return (item.id, item.operations);
+        }
     }
 }

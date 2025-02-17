@@ -12,3 +12,5 @@
     href: obj/apipage/
   - name: REST API
     href: restapi/
+  - name: OpenAPI
+    href: openapi/
