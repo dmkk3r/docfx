@@ -56,7 +56,6 @@ public static partial class OpenApiSpec
         foreach (var error in diagnostic.Errors)
         {
             Logger.LogError($"OpenAPI spec error: {error.Message}");
-            return null;
         }
 
         return openApiDocument;

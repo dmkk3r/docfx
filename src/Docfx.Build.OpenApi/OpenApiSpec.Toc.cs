@@ -9,11 +9,14 @@ namespace Docfx.Build.OpenApi;
 
 public partial class OpenApiSpec
 {
-    private static List<OpenApiTocNode> CreateToc(OpenApiPaths paths, OpenApiJsonConfig config, string outputFolder)
+    private static List<OpenApiTocNode> CreateToc(OpenApiDocument document, OpenApiJsonConfig config,
+        string outputFolder)
     {
         List<OpenApiTocNode> toc = [];
 
-        var tags = paths
+        CreateInformationToc(document.Info);
+
+        var tags = document.Paths
             .SelectMany(p => p.Value.Operations.SelectMany(o => o.Value.Tags))
             .Distinct()
             .ToList();
@@ -27,7 +30,7 @@ public partial class OpenApiSpec
 
             toc.Add(tagNode);
 
-            foreach (var path in paths)
+            foreach (var path in document.Paths)
             {
                 foreach (var operation in path.Value.Operations)
                 {
@@ -61,6 +64,19 @@ public partial class OpenApiSpec
         YamlUtility.Serialize(tocPath, toc, YamlMime.TableOfContent);
 
         return toc;
+
+        void CreateInformationToc(OpenApiInfo info)
+        {
+            var informationNode = new OpenApiTocNode
+            {
+                id = "information",
+                name = "Information",
+                type = OpenApiTocNodeType.Info,
+                href = "information.yml"
+            };
+
+            toc.Add(informationNode);
+        }
     }
 
     private static IEnumerable<(string id, List<KeyValuePair<OperationType, OpenApiOperation>> operations)>

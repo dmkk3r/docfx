@@ -5,6 +5,7 @@ namespace Docfx.Build.OpenApi.Toc;
 
 internal enum OpenApiTocNodeType
 {
+    Info,
     Tag,
     Path,
     Operation,

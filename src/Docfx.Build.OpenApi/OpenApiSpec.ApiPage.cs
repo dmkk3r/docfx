@@ -15,11 +15,25 @@ public partial class OpenApiSpec
         var outputFolder = Path.Combine(configDirectory, config.OutputFolder);
         Directory.CreateDirectory(outputFolder);
 
-        var toc = CreateToc(openApiDocument.Paths, config, outputFolder);
+        SaveInformationNode();
+
+        var toc = CreateToc(openApiDocument, config, outputFolder);
         Parallel.ForEach(EnumerateToc(toc), n => SaveTocNode(n.id, n.operations));
 
         Logger.LogInfo($"Writing OpenAPI spec to {outputFolder}");
         return;
+
+        void SaveInformationNode()
+        {
+            var body = new List<Block>
+            {
+                (Api)new Api1 { api1 = openApiDocument.Info.Title, id = "information" },
+                new Markdown { markdown = openApiDocument.Info.Description }
+            };
+
+            output(outputFolder, "information",
+                new ApiPage.ApiPage { title = "Information", languageId = "openapi", body = body.ToArray() });
+        }
 
         void SaveTocNode(string id, List<KeyValuePair<OperationType, OpenApiOperation>> operations)
         {
