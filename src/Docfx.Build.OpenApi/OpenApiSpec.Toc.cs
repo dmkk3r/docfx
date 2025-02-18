@@ -39,7 +39,7 @@ public partial class OpenApiSpec
                         continue;
                     }
 
-                    var id = operation.Value.OperationId;
+                    var id = GetCleanedId(operation.Value.OperationId ?? operation.Value.Summary);
 
                     var operationNode = new OpenApiTocNode
                     {
@@ -69,13 +69,22 @@ public partial class OpenApiSpec
         {
             var informationNode = new OpenApiTocNode
             {
-                id = "information",
-                name = "Information",
-                type = OpenApiTocNodeType.Info,
-                href = "information.yml"
+                id = "information", name = "Information", type = OpenApiTocNodeType.Info, href = "information.yml"
             };
 
             toc.Add(informationNode);
+        }
+
+        string GetCleanedId(string? id)
+        {
+            if (id is null)
+                return string.Empty;
+
+            if (id.Any(char.IsWhiteSpace))
+                return id.Replace(" ", "-").ToLower();
+
+            return string.Concat(id.Select((x, i) => i > 0 && char.IsUpper(x) ? "-" + x : x.ToString()))
+                .ToLower();
         }
     }
 
