@@ -64,12 +64,16 @@
       "output": "obj/apipage"
     }
   ],
+  "openapi": {
+    "specFile": "openapi/petstore3.swagger.json",
+    "output": "openapi"
+  },
   "build": {
     "content": [
       { "files": [ "**/*.yml" ], "src": "obj/api", "dest": "api" },
       { "files": [ "**" ], "src": "obj/md", "dest": "md" },
       { "files": [ "**" ], "src": "obj/apipage", "dest": "apipage" },
-      { "files": [ "articles/**/*.{md,yml}", "*.md", "toc.yml", "restapi/**" ] },
+      { "files": [ "articles/**/*.{md,yml}", "*.md", "toc.yml", "restapi/**", "openapi/*.yml" ] },
       { "files": [ "pdf/*.{md,yml}" ] }
     ],
     "resource": [

@@ -59,6 +59,14 @@
       "environmentVariables": {
         "DOCFX_PDF_TIMEOUT": "0"
       }
+    },
+    // Run `docfx openapi` command.
+    "docfx openapi": {
+      "commandName": "Project",
+      "commandLineArgs": "openapi ../../samples/seed/docfx.json --file ../../samples/seed/restapi/petstore3.swagger.json",
+      "workingDirectory": ".",
+      "environmentVariables": {
+      }
     }
   }
 }

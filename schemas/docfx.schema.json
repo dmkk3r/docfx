@@ -18,6 +18,9 @@
     "merge": {
       "$ref": "#/$defs/mergeConfig"
     },
+    "openapi": {
+      "$ref": "#/$defs/openapiConfig"
+    },
     "rules": {
       "$ref": "#/$defs/ruleConfig"
     }
@@ -702,6 +705,20 @@
             "default": false,
             "description": "When enabled, use CLR type names instead of language aliases."
           }
+        }
+      }
+    },
+    "openapiConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "specFile": {
+          "type": "string",
+          "description": "The OpenAPI specification file."
+        },
+        "output": {
+          "type": "string",
+          "description": "The output folder for the generated OpenAPI documentation."
         }
       }
     },

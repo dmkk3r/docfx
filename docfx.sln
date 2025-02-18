@@ -105,6 +105,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Packages.props = Directory.Packages.props
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docfx.Build.OpenApi", "src\Docfx.Build.OpenApi\Docfx.Build.OpenApi.csproj", "{6C5BDD32-B3AA-4412-A609-62344ADCD564}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -559,6 +561,18 @@ Global
 		{CAECA6C3-3317-4E6E-8927-9186857B23E8}.Release|x64.Build.0 = Release|Any CPU
 		{CAECA6C3-3317-4E6E-8927-9186857B23E8}.Release|x86.ActiveCfg = Release|Any CPU
 		{CAECA6C3-3317-4E6E-8927-9186857B23E8}.Release|x86.Build.0 = Release|Any CPU
+		{6C5BDD32-B3AA-4412-A609-62344ADCD564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5BDD32-B3AA-4412-A609-62344ADCD564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5BDD32-B3AA-4412-A609-62344ADCD564}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6C5BDD32-B3AA-4412-A609-62344ADCD564}.Debug|x64.Build.0 = Debug|Any CPU
+		{6C5BDD32-B3AA-4412-A609-62344ADCD564}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6C5BDD32-B3AA-4412-A609-62344ADCD564}.Debug|x86.Build.0 = Debug|Any CPU
+		{6C5BDD32-B3AA-4412-A609-62344ADCD564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5BDD32-B3AA-4412-A609-62344ADCD564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5BDD32-B3AA-4412-A609-62344ADCD564}.Release|x64.ActiveCfg = Release|Any CPU
+		{6C5BDD32-B3AA-4412-A609-62344ADCD564}.Release|x64.Build.0 = Release|Any CPU
+		{6C5BDD32-B3AA-4412-A609-62344ADCD564}.Release|x86.ActiveCfg = Release|Any CPU
+		{6C5BDD32-B3AA-4412-A609-62344ADCD564}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -606,6 +620,7 @@ Global
 		{49A27FCE-C434-4318-8EEC-1E4CDC192778} = {926A0726-B806-4215-82EF-AF8E22D0FACF}
 		{528A2D8B-4792-4202-987E-876E9D0EAF03} = {F922E543-9AD4-4031-8BD1-8A7AA9771D1E}
 		{CAECA6C3-3317-4E6E-8927-9186857B23E8} = {49A27FCE-C434-4318-8EEC-1E4CDC192778}
+		{6C5BDD32-B3AA-4412-A609-62344ADCD564} = {F922E543-9AD4-4031-8BD1-8A7AA9771D1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C12271F-8093-4D5D-8BEE-3318BFE40E23}
