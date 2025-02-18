@@ -1,6 +1,0 @@
-- name: Templates
-  href: templates.yml
-- name: Packages
-  href: packages.yml
-- name: Tools
-  href: tools.yml
