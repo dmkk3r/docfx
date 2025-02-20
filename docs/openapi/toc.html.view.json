@@ -10,7 +10,7 @@
       "leaf": true
     },
     {
-      "name": "pet",
+      "name": "Pets",
       "href": "pet.html",
       "topicHref": "pet.html",
       "items": [
@@ -91,7 +91,7 @@
       "level": 2
     },
     {
-      "name": "store",
+      "name": "Petstore Orders",
       "href": "store.html",
       "topicHref": "store.html",
       "items": [
@@ -145,7 +145,7 @@
       "level": 2
     },
     {
-      "name": "user",
+      "name": "Users",
       "href": "user.html",
       "topicHref": "user.html",
       "items": [

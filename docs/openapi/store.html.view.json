@@ -5,7 +5,7 @@
   "pdf": true,
   "pdfTocPage": true,
   "title": "store",
-  "content": "<h1 class='section api'  id='getInventory'>Returns pet inventories by status   </h1>\r\n <h1 class='section api'  id='placeOrder'>Place an order for a pet   </h1>\r\n <h1 class='section api'  id='getOrderById'>Find purchase order by ID   </h1>\r\n <h1 class='section api'  id='deleteOrder'>Delete purchase order by ID   </h1>\r\n <h1 class='section api' >Subscribe to the Store events   </h1>\r\n ",
+  "content": "<h1 class='section api'  id='store'>Petstore Orders   </h1>\r\n <p sourceFile=\"openapi/store.yml\" sourceStartLineNumber=\"1\">Access to Petstore orders</p>\n<p sourceFile=\"openapi/store.yml\" sourceStartLineNumber=\"1\"><a href=\"get-inventory.html\" sourceFile=\"openapi/store.yml\" sourceStartLineNumber=\"1\">Returns pet inventories by status</a></p>\n<p sourceFile=\"openapi/store.yml\" sourceStartLineNumber=\"1\"><a href=\"place-order.html\" sourceFile=\"openapi/store.yml\" sourceStartLineNumber=\"1\">Place an order for a pet</a></p>\n<p sourceFile=\"openapi/store.yml\" sourceStartLineNumber=\"1\"><a href=\"get-order-by-id.html\" sourceFile=\"openapi/store.yml\" sourceStartLineNumber=\"1\">Find purchase order by ID</a></p>\n<p sourceFile=\"openapi/store.yml\" sourceStartLineNumber=\"1\"><a href=\"delete-order.html\" sourceFile=\"openapi/store.yml\" sourceStartLineNumber=\"1\">Delete purchase order by ID</a></p>\n<p sourceFile=\"openapi/store.yml\" sourceStartLineNumber=\"1\"><a href=\"subscribe-to-the-store-events.html\" sourceFile=\"openapi/store.yml\" sourceStartLineNumber=\"1\">Subscribe to the Store events</a></p>\n",
   "yamlmime": "ApiPage",
   "_disableNextArticle": true,
   "_key": "openapi/store.yml",

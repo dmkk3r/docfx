@@ -212,7 +212,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/solution/CatLibrary/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Play",
@@ -273,8 +273,8 @@
           "type": "method",
           "summary": "<p sourcefile=\"obj/api/CatLibrary.ICatExtension.yml\" sourcestartlinenumber=\"1\">Extension method to let cat play</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_ICatExtension_Play_CatLibrary_ICat_CatLibrary_Core_ContainersRefType_ColorType_.md&value=---%0Auid%3A%20CatLibrary.ICatExtension.Play(CatLibrary.ICat%2CCatLibrary.Core.ContainersRefType.ColorType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L347",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_ICatExtension_Play_CatLibrary_ICat_CatLibrary_Core_ContainersRefType_ColorType_.md&value=---%0Auid%3A%20CatLibrary.ICatExtension.Play(CatLibrary.ICat%2CCatLibrary.Core.ContainersRefType.ColorType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L347",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -441,7 +441,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/solution/CatLibrary/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Sleep",
@@ -502,8 +502,8 @@
           "type": "method",
           "summary": "<p sourcefile=\"obj/api/CatLibrary.ICatExtension.yml\" sourcestartlinenumber=\"1\">Extension method hint that how long the cat can sleep.</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_ICatExtension_Sleep_CatLibrary_ICat_System_Int64_.md&value=---%0Auid%3A%20CatLibrary.ICatExtension.Sleep(CatLibrary.ICat%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L340",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_ICatExtension_Sleep_CatLibrary_ICat_System_Int64_.md&value=---%0Auid%3A%20CatLibrary.ICatExtension.Sleep(CatLibrary.ICat%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L340",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -554,7 +554,7 @@
   "source": {
     "remote": {
       "path": "samples/seed/dotnet/solution/CatLibrary/Class1.cs",
-      "branch": "main",
+      "branch": "openapi-v3",
       "repo": "https://github.com/dmkk3r/docfx.git"
     },
     "id": "ICatExtension",
@@ -1150,8 +1150,8 @@
     "_shared": {}
   },
   "yamlmime": "ManagedReference",
-  "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_ICatExtension.md&value=---%0Auid%3A%20CatLibrary.ICatExtension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-  "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L333",
+  "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_ICatExtension.md&value=---%0Auid%3A%20CatLibrary.ICatExtension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L333",
   "description": "It's the class that contains ICat interface's extension method. This class must be public and static.Also it shouldn't be a geneic class",
   "remarks": "",
   "conceptual": "",

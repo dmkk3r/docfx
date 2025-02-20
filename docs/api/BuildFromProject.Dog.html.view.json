@@ -212,7 +212,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": ".ctor",
@@ -273,8 +273,8 @@
           "type": "constructor",
           "summary": "<p sourcefile=\"obj/api/BuildFromProject.Dog.yml\" sourcestartlinenumber=\"1\">Constructor.</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Dog__ctor_System_String_System_Int32_.md&value=---%0Auid%3A%20BuildFromProject.Dog.%23ctor(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L238",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Dog__ctor_System_String_System_Int32_.md&value=---%0Auid%3A%20BuildFromProject.Dog.%23ctor(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L238",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -399,7 +399,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Age",
@@ -460,8 +460,8 @@
           "type": "property",
           "summary": "<p sourcefile=\"obj/api/BuildFromProject.Dog.yml\" sourcestartlinenumber=\"1\">Age of the dog.</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Dog_Age.md&value=---%0Auid%3A%20BuildFromProject.Dog.Age%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L231",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Dog_Age.md&value=---%0Auid%3A%20BuildFromProject.Dog.Age%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L231",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -579,7 +579,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Name",
@@ -640,8 +640,8 @@
           "type": "property",
           "summary": "<p sourcefile=\"obj/api/BuildFromProject.Dog.yml\" sourcestartlinenumber=\"1\">Name of the dog.</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Dog_Name.md&value=---%0Auid%3A%20BuildFromProject.Dog.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L226",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Dog_Name.md&value=---%0Auid%3A%20BuildFromProject.Dog.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L226",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -692,7 +692,7 @@
   "source": {
     "remote": {
       "path": "samples/seed/dotnet/project/Project/Class1.cs",
-      "branch": "main",
+      "branch": "openapi-v3",
       "repo": "https://github.com/dmkk3r/docfx.git"
     },
     "id": "Dog",
@@ -1288,8 +1288,8 @@
     "_shared": {}
   },
   "yamlmime": "ManagedReference",
-  "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Dog.md&value=---%0Auid%3A%20BuildFromProject.Dog%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-  "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L221",
+  "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Dog.md&value=---%0Auid%3A%20BuildFromProject.Dog%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L221",
   "description": "Class representing a dog.",
   "remarks": "",
   "conceptual": "",

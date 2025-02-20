@@ -116,7 +116,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Issue1651",
@@ -177,8 +177,8 @@
           "type": "method",
           "summary": "<p sourcefile=\"obj/api/BuildFromProject.Class1.yml\" sourcestartlinenumber=\"1\">Pricing models are used to calculate theoretical option values</p>\n<ul><li><span class=\"term\">1</span>Black Scholes</li><li><span class=\"term\">2</span>Black76</li><li><span class=\"term\">3</span>Black76Fut</li><li><span class=\"term\">4</span>Equity Tree</li><li><span class=\"term\">5</span>Variance Swap</li><li><span class=\"term\">6</span>Dividend Forecast</li></ul>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Class1_Issue1651.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue1651%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L33",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Class1_Issue1651.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue1651%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L33",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -249,7 +249,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Issue1887",
@@ -310,8 +310,8 @@
           "type": "method",
           "summary": "<p sourcefile=\"obj/api/BuildFromProject.Class1.yml\" sourcestartlinenumber=\"1\">IConfiguration related helper and extension routines.</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Class1_Issue1887.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue1887%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L152",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Class1_Issue1887.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue1887%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L152",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -382,7 +382,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Issue2623",
@@ -446,8 +446,8 @@
           "type": "method",
           "summary": "",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Class1_Issue2623.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue2623%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L78",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Class1_Issue2623.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue2623%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L78",
           "description": "",
           "conceptual": "",
           "implements": "",
@@ -517,7 +517,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Issue2723",
@@ -579,8 +579,8 @@
           "type": "method",
           "summary": "",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Class1_Issue2723.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue2723%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L97",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Class1_Issue2723.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue2723%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L97",
           "description": "",
           "conceptual": "",
           "implements": "",
@@ -650,7 +650,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Issue4017",
@@ -714,8 +714,8 @@
           "type": "method",
           "summary": "",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Class1_Issue4017.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue4017%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L56",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Class1_Issue4017.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue4017%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L56",
           "description": "",
           "conceptual": "",
           "implements": "",
@@ -785,7 +785,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Issue4392",
@@ -847,8 +847,8 @@
           "type": "method",
           "summary": "",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Class1_Issue4392.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue4392%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L102",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Class1_Issue4392.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue4392%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L102",
           "description": "",
           "conceptual": "",
           "implements": "",
@@ -918,7 +918,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Issue7484",
@@ -980,8 +980,8 @@
           "type": "method",
           "summary": "",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Class1_Issue7484.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue7484%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L43",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Class1_Issue7484.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue7484%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L43",
           "description": "",
           "conceptual": "",
           "implements": "",
@@ -1057,7 +1057,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Issue8764",
@@ -1117,8 +1117,8 @@
           "type": "method",
           "summary": "",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Class1_Issue8764__1.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue8764%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L104",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Class1_Issue8764__1.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue8764%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L104",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -1190,7 +1190,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Issue896",
@@ -1347,8 +1347,8 @@
           "type": "method",
           "summary": "<p sourcefile=\"obj/api/BuildFromProject.Class1.yml\" sourcestartlinenumber=\"1\">Test</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Class1_Issue896.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue896%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L20",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Class1_Issue896.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue896%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L20",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -1463,7 +1463,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Issue9216",
@@ -1524,8 +1524,8 @@
           "type": "method",
           "summary": "<p sourcefile=\"obj/api/BuildFromProject.Class1.yml\" sourcestartlinenumber=\"1\">Calculates the determinant of a 3-dimensional matrix:</p>\n<p sourcefile=\"obj/api/BuildFromProject.Class1.yml\" sourcestartlinenumber=\"3\"><span class=\"math\" sourcefile=\"obj/api/BuildFromProject.Class1.yml\" sourcestartlinenumber=\"3\">\\(A = \\begin{vmatrix} a_{11} &amp; a_{12} &amp; a_{13} \\\\ a_{21} &amp; a_{22} &amp; a_{23} \\\\ a_{31} &amp; a_{32} &amp; a_{33} \\end{vmatrix}\\)</span></p>\n<p sourcefile=\"obj/api/BuildFromProject.Class1.yml\" sourcestartlinenumber=\"5\">Returns the smallest value:</p>\n<p sourcefile=\"obj/api/BuildFromProject.Class1.yml\" sourcestartlinenumber=\"7\"><span class=\"math\" sourcefile=\"obj/api/BuildFromProject.Class1.yml\" sourcestartlinenumber=\"7\">\\(\\left\\{\\begin{matrix}a, a&lt;b \\\\ b, b&gt;a\\\\ \\end{matrix} \\right.\\)</span></p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Class1_Issue9216.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue9216%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L164",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Class1_Issue9216.md&value=---%0Auid%3A%20BuildFromProject.Class1.Issue9216%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L164",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -1596,7 +1596,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/project/Project/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "XmlCommentIncludeTag",
@@ -1703,8 +1703,8 @@
           "type": "method",
           "summary": "<p sourcefile=\"obj/api/BuildFromProject.Class1.yml\" sourcestartlinenumber=\"1\">This method should do something...</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Class1_XmlCommentIncludeTag.md&value=---%0Auid%3A%20BuildFromProject.Class1.XmlCommentIncludeTag%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L12",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Class1_XmlCommentIncludeTag.md&value=---%0Auid%3A%20BuildFromProject.Class1.XmlCommentIncludeTag%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L12",
           "description": "",
           "conceptual": "",
           "seealso": [],
@@ -1753,7 +1753,7 @@
   "source": {
     "remote": {
       "path": "samples/seed/dotnet/project/Project/Class1.cs",
-      "branch": "main",
+      "branch": "openapi-v3",
       "repo": "https://github.com/dmkk3r/docfx.git"
     },
     "id": "Class1",
@@ -2392,8 +2392,8 @@
     "_shared": {}
   },
   "yamlmime": "ManagedReference",
-  "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=BuildFromProject_Class1.md&value=---%0Auid%3A%20BuildFromProject.Class1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-  "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/project/Project/Class1.cs/#L3",
+  "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=BuildFromProject_Class1.md&value=---%0Auid%3A%20BuildFromProject.Class1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/project/Project/Class1.cs/#L3",
   "summary": "",
   "description": "",
   "remarks": "",

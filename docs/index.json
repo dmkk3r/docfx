@@ -892,7 +892,7 @@
   "openapi/pet.html": {
     "href": "openapi/pet.html",
     "title": "pet | docfx seed website",
-    "keywords": "Add a new pet to the store Update an existing pet Find pet by ID Updates a pet in the store with form data Deletes a pet uploads an image Finds Pets by status Finds Pets by tags"
+    "keywords": "Pets Everything about your Pets Add a new pet to the store Update an existing pet Find pet by ID Updates a pet in the store with form data Deletes a pet uploads an image Finds Pets by status Finds Pets by tags"
   },
   "openapi/place-order.html": {
     "href": "openapi/place-order.html",
@@ -902,7 +902,7 @@
   "openapi/store.html": {
     "href": "openapi/store.html",
     "title": "store | docfx seed website",
-    "keywords": "Returns pet inventories by status Place an order for a pet Find purchase order by ID Delete purchase order by ID Subscribe to the Store events"
+    "keywords": "Petstore Orders Access to Petstore orders Returns pet inventories by status Place an order for a pet Find purchase order by ID Delete purchase order by ID Subscribe to the Store events"
   },
   "openapi/subscribe-to-the-store-events.html": {
     "href": "openapi/subscribe-to-the-store-events.html",
@@ -932,7 +932,7 @@
   "openapi/user.html": {
     "href": "openapi/user.html",
     "title": "user | docfx seed website",
-    "keywords": "Create user Get user by user name Updated user Delete user Creates list of users with given input array Creates list of users with given input list Logs user into the system Logs out current logged in user session"
+    "keywords": "Users Operations about user Create user Get user by user name Updated user Delete user Creates list of users with given input array Creates list of users with given input list Logs user into the system Logs out current logged in user session"
   },
   "pdf/cover.html": {
     "href": "pdf/cover.html",

@@ -164,7 +164,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/solution/CatLibrary/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Bar",
@@ -224,8 +224,8 @@
           "type": "method",
           "summary": "",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_Core_Issue231_Bar_CatLibrary_Core_ContainersRefType_.md&value=---%0Auid%3A%20CatLibrary.Core.Issue231.Bar(CatLibrary.Core.ContainersRefType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L427",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_Core_Issue231_Bar_CatLibrary_Core_ContainersRefType_.md&value=---%0Auid%3A%20CatLibrary.Core.Issue231.Bar(CatLibrary.Core.ContainersRefType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L427",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -345,7 +345,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Foo",
@@ -405,8 +405,8 @@
           "type": "method",
           "summary": "",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_Core_Issue231_Foo_CatLibrary_Core_ContainersRefType_.md&value=---%0Auid%3A%20CatLibrary.Core.Issue231.Foo(CatLibrary.Core.ContainersRefType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs/#L105",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_Core_Issue231_Foo_CatLibrary_Core_ContainersRefType_.md&value=---%0Auid%3A%20CatLibrary.Core.Issue231.Foo(CatLibrary.Core.ContainersRefType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs/#L105",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -458,7 +458,7 @@
   "source": {
     "remote": {
       "path": "samples/seed/dotnet/solution/CatLibrary/Class1.cs",
-      "branch": "main",
+      "branch": "openapi-v3",
       "repo": "https://github.com/dmkk3r/docfx.git"
     },
     "id": "Issue231",
@@ -1052,8 +1052,8 @@
     "_shared": {}
   },
   "yamlmime": "ManagedReference",
-  "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_Core_Issue231.md&value=---%0Auid%3A%20CatLibrary.Core.Issue231%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-  "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L425",
+  "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_Core_Issue231.md&value=---%0Auid%3A%20CatLibrary.Core.Issue231%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L425",
   "summary": "",
   "description": "",
   "remarks": "",

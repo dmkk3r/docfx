@@ -212,7 +212,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/solution/CatLibrary/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "this[]",
@@ -273,8 +273,8 @@
           "type": "property",
           "summary": "<p sourcefile=\"obj/api/CatLibrary.IAnimal.yml\" sourcestartlinenumber=\"1\">Return specific number animal's name.</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_IAnimal_Item_System_Int32_.md&value=---%0Auid%3A%20CatLibrary.IAnimal.Item(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L31",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_IAnimal_Item_System_Int32_.md&value=---%0Auid%3A%20CatLibrary.IAnimal.Item(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L31",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -392,7 +392,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/solution/CatLibrary/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Name",
@@ -453,8 +453,8 @@
           "type": "property",
           "summary": "<p sourcefile=\"obj/api/CatLibrary.IAnimal.yml\" sourcestartlinenumber=\"1\">Name of Animal.</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_IAnimal_Name.md&value=---%0Auid%3A%20CatLibrary.IAnimal.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L24",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_IAnimal_Name.md&value=---%0Auid%3A%20CatLibrary.IAnimal.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L24",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -532,7 +532,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/solution/CatLibrary/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Eat",
@@ -593,8 +593,8 @@
           "type": "method",
           "summary": "<p sourcefile=\"obj/api/CatLibrary.IAnimal.yml\" sourcestartlinenumber=\"1\">Animal's eat method.</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_IAnimal_Eat.md&value=---%0Auid%3A%20CatLibrary.IAnimal.Eat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L36",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_IAnimal_Eat.md&value=---%0Auid%3A%20CatLibrary.IAnimal.Eat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L36",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -714,7 +714,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/solution/CatLibrary/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Eat",
@@ -775,8 +775,8 @@
           "type": "method",
           "summary": "<p sourcefile=\"obj/api/CatLibrary.IAnimal.yml\" sourcestartlinenumber=\"1\">Feed the animal with some food</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_IAnimal_Eat_System_String_.md&value=---%0Auid%3A%20CatLibrary.IAnimal.Eat(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L50",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_IAnimal_Eat_System_String_.md&value=---%0Auid%3A%20CatLibrary.IAnimal.Eat(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L50",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -903,7 +903,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/solution/CatLibrary/Class1.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "Eat",
@@ -964,8 +964,8 @@
           "type": "method",
           "summary": "<p sourcefile=\"obj/api/CatLibrary.IAnimal.yml\" sourcestartlinenumber=\"1\">Overload method of eat. This define the animal eat by which tool.</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_IAnimal_Eat__1___0_.md&value=---%0Auid%3A%20CatLibrary.IAnimal.Eat%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L43",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_IAnimal_Eat__1___0_.md&value=---%0Auid%3A%20CatLibrary.IAnimal.Eat%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L43",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -1016,7 +1016,7 @@
   "source": {
     "remote": {
       "path": "samples/seed/dotnet/solution/CatLibrary/Class1.cs",
-      "branch": "main",
+      "branch": "openapi-v3",
       "repo": "https://github.com/dmkk3r/docfx.git"
     },
     "id": "IAnimal",
@@ -1228,7 +1228,7 @@
   },
   "yamlmime": "ManagedReference",
   "docurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/specs/CatLibrary.IAnimal.md/#L2",
-  "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L18",
+  "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary/Class1.cs/#L18",
   "description": "This is basic interface of all animal.",
   "implements": "",
   "seealso": [],

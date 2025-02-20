@@ -162,7 +162,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "ColorCount",
@@ -179,8 +179,8 @@
           "type": "field",
           "summary": "<p sourcefile=\"obj/api/CatLibrary.Core.ContainersRefType.yml\" sourcestartlinenumber=\"1\">ColorCount</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_Core_ContainersRefType_ColorCount.md&value=---%0Auid%3A%20CatLibrary.Core.ContainersRefType.ColorCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs/#L18",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_Core_ContainersRefType_ColorCount.md&value=---%0Auid%3A%20CatLibrary.Core.ContainersRefType.ColorCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs/#L18",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -305,7 +305,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "GetColorCount",
@@ -366,8 +366,8 @@
           "type": "property",
           "summary": "<p sourcefile=\"obj/api/CatLibrary.Core.ContainersRefType.yml\" sourcestartlinenumber=\"1\">GetColorCount</p>\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_Core_ContainersRefType_GetColorCount.md&value=---%0Auid%3A%20CatLibrary.Core.ContainersRefType.GetColorCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs/#L50",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_Core_ContainersRefType_GetColorCount.md&value=---%0Auid%3A%20CatLibrary.Core.ContainersRefType.GetColorCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs/#L50",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -538,7 +538,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "ContainersRefTypeNonRefMethod",
@@ -599,8 +599,8 @@
           "type": "method",
           "summary": "<p sourcefile=\"obj/api/CatLibrary.Core.ContainersRefType.yml\" sourcestartlinenumber=\"1\">ContainersRefTypeNonRefMethod</p>\n<param name=\"parmsArray\">array\n",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_Core_ContainersRefType_ContainersRefTypeNonRefMethod_System_Object___.md&value=---%0Auid%3A%20CatLibrary.Core.ContainersRefType.ContainersRefTypeNonRefMethod(System.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs/#L68",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_Core_ContainersRefType_ContainersRefTypeNonRefMethod_System_Object___.md&value=---%0Auid%3A%20CatLibrary.Core.ContainersRefType.ContainersRefTypeNonRefMethod(System.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs/#L68",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -724,7 +724,7 @@
           "source": {
             "remote": {
               "path": "samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs",
-              "branch": "main",
+              "branch": "openapi-v3",
               "repo": "https://github.com/dmkk3r/docfx.git"
             },
             "id": "ContainersRefTypeEventHandler",
@@ -740,8 +740,8 @@
           "type": "event",
           "summary": "",
           "platform": null,
-          "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_Core_ContainersRefType_ContainersRefTypeEventHandler.md&value=---%0Auid%3A%20CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-          "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs/#L86",
+          "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_Core_ContainersRefType_ContainersRefTypeEventHandler.md&value=---%0Auid%3A%20CatLibrary.Core.ContainersRefType.ContainersRefTypeEventHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs/#L86",
           "description": "",
           "remarks": "",
           "conceptual": "",
@@ -793,7 +793,7 @@
   "source": {
     "remote": {
       "path": "samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs",
-      "branch": "main",
+      "branch": "openapi-v3",
       "repo": "https://github.com/dmkk3r/docfx.git"
     },
     "id": "ContainersRefType",
@@ -1388,8 +1388,8 @@
     "_shared": {}
   },
   "yamlmime": "ManagedReference",
-  "docurl": "https://github.com/dmkk3r/docfx/new/main/apiSpec/new?filename=CatLibrary_Core_ContainersRefType.md&value=---%0Auid%3A%20CatLibrary.Core.ContainersRefType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
-  "sourceurl": "https://github.com/dmkk3r/docfx/blob/main/samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs/#L12",
+  "docurl": "https://github.com/dmkk3r/docfx/new/openapi-v3/apiSpec/new?filename=CatLibrary_Core_ContainersRefType.md&value=---%0Auid%3A%20CatLibrary.Core.ContainersRefType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/dmkk3r/docfx/blob/openapi-v3/samples/seed/dotnet/solution/CatLibrary.Core/BaseClass.cs/#L12",
   "description": "Struct ContainersRefType",
   "remarks": "",
   "conceptual": "",
