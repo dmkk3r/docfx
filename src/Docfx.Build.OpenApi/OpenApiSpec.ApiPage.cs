@@ -2,8 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 using Docfx.Build.ApiPage;
+using Docfx.Build.OpenApi.Toc;
 using Docfx.Build.OpenApi.Vendor;
 using Docfx.Common;
+using Microsoft.OpenApi.Any;
+using Microsoft.OpenApi.Interfaces;
 using Microsoft.OpenApi.Models;
 
 namespace Docfx.Build.OpenApi;
@@ -19,7 +22,7 @@ public partial class OpenApiSpec
         SaveInformationNode();
 
         var toc = CreateToc(openApiDocument, config, outputFolder);
-        Parallel.ForEach(EnumerateToc(toc), n => SaveTocNode(n.id, n.operations));
+        Parallel.ForEach(EnumerateToc(toc), n => SaveTocNode(n.id, n.type, n.openApiElements));
 
         Logger.LogInfo($"Writing OpenAPI spec to {outputFolder}");
         return;
@@ -113,21 +116,66 @@ public partial class OpenApiSpec
             }
         }
 
-        void SaveTocNode(string id, List<KeyValuePair<OperationType, OpenApiOperation>> operations)
+        void SaveTocNode(string id, OpenApiTocNodeType type, List<IOpenApiElement> openApiElements)
         {
             var body = new List<Block>();
 
-            foreach ((OperationType operationType, OpenApiOperation operation) in operations)
+            switch (type)
             {
-                var operationId = operation.OperationId;
-                var operationTitle = operation.Summary ?? operation.Description ?? operationId;
+                case OpenApiTocNodeType.Tag:
+                    var tag = openApiElements.FirstOrDefault(e => e is OpenApiTag) as OpenApiTag;
 
-                var heading = new Api1 { api1 = operationTitle, id = operationId, };
-                body.Add((Api)heading);
+                    if (tag is null)
+                        return;
+
+                    var tagName = tag.Extensions.TryGetValue("x-displayName", out var displayName)
+                        ? (displayName as OpenApiString)?.Value
+                        : tag.Name;
+
+                    body.Add((Api)new Api1 { api1 = tagName!, id = tag.Name });
+                    body.Add(new Markdown { markdown = tag.Description });
+
+                    foreach (var operation in openApiElements.OfType<OpenApiOperation>())
+                    {
+                        body.Add(new Markdown
+                        {
+                            markdown =
+                                $"[{operation.Summary ?? operation.Description ?? operation.OperationId}]({GetCleanedId(operation.OperationId ?? operation.Summary)}.html)"
+                        });
+                    }
+
+                    break;
+                case OpenApiTocNodeType.Operation:
+                    if (openApiElements.First() is not OpenApiOperation firstOperation)
+                        return;
+
+                    body.Add((Api)new Api1
+                    {
+                        api1 = firstOperation.Summary ?? firstOperation.Description ?? firstOperation.OperationId,
+                        id = firstOperation.OperationId
+                    });
+                    break;
+                case OpenApiTocNodeType.Info:
+                case OpenApiTocNodeType.Path:
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(type), type, null);
             }
 
             output(outputFolder, id,
                 new ApiPage.ApiPage { title = id, languageId = "json", body = body.ToArray() });
+
+            string GetCleanedId(string? id)
+            {
+                if (id is null)
+                    return string.Empty;
+
+                if (id.Any(char.IsWhiteSpace))
+                    return id.Replace(" ", "-").ToLower();
+
+                return string.Concat(id.Select((x, i) => i > 0 && char.IsUpper(x) ? "-" + x : x.ToString()))
+                    .ToLower();
+            }
         }
     }
 }

@@ -1,7 +1,7 @@
 // Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using Microsoft.OpenApi.Models;
+using Microsoft.OpenApi.Interfaces;
 
 namespace Docfx.Build.OpenApi.Toc;
 
@@ -13,6 +13,5 @@ internal class OpenApiTocNode
 
     internal OpenApiTocNodeType type;
     internal string? id;
-    internal bool containsLeafNodes;
-    internal List<KeyValuePair<OperationType, OpenApiOperation>> operations = [];
+    internal List<IOpenApiElement> openApiElements = [];
 }

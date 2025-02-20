@@ -3,6 +3,8 @@
 
 using Docfx.Build.OpenApi.Toc;
 using Docfx.Common;
+using Microsoft.OpenApi.Any;
+using Microsoft.OpenApi.Interfaces;
 using Microsoft.OpenApi.Models;
 
 namespace Docfx.Build.OpenApi;
@@ -23,10 +25,16 @@ public partial class OpenApiSpec
 
         foreach (var tag in tags)
         {
+            var tagName = tag.Extensions.TryGetValue("x-displayName", out var displayName)
+                ? (displayName as OpenApiString)?.Value
+                : tag.Name;
+
             var tagNode = new OpenApiTocNode
             {
-                id = tag.Name, name = tag.Name, type = OpenApiTocNodeType.Tag, href = $"{tag.Name}.yml"
+                id = tag.Name, name = tagName, type = OpenApiTocNodeType.Tag, href = $"{tag.Name}.yml"
             };
+
+            tagNode.openApiElements.Add(tag);
 
             toc.Add(tagNode);
 
@@ -49,15 +57,13 @@ public partial class OpenApiSpec
                         href = $"{id}.yml"
                     };
 
-                    operationNode.operations.Add(operation);
+                    operationNode.openApiElements.Add(operation.Value);
 
                     tagNode.items ??= [];
                     tagNode.items.Add(operationNode);
-                    tagNode.operations.Add(operation);
+                    tagNode.openApiElements.Add(operation.Value);
                 }
             }
-
-            tagNode.containsLeafNodes = tagNode.items?.Count != 0;
         }
 
         var tocPath = Path.Combine(outputFolder, "toc.yml");
@@ -88,7 +94,7 @@ public partial class OpenApiSpec
         }
     }
 
-    private static IEnumerable<(string id, List<KeyValuePair<OperationType, OpenApiOperation>> operations)>
+    private static IEnumerable<(string id, OpenApiTocNodeType type, List<IOpenApiElement> openApiElements)>
         EnumerateToc(List<OpenApiTocNode> items)
     {
         foreach (var item in items)
@@ -97,8 +103,8 @@ public partial class OpenApiSpec
                 foreach (var i in EnumerateToc(item.items))
                     yield return i;
 
-            if (item.id is not null && item.operations.Count > 0)
-                yield return (item.id, item.operations);
+            if (item.id is not null && item.openApiElements.Count > 0)
+                yield return (item.id, item.type, item.openApiElements);
         }
     }
 }
